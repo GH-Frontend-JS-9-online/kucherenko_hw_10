@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CONVERTER</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Currency Converter</h1>
+		<input type="number" min="0" id="amount" placeholder="Enter amount" class="enterAmount" required>
+		<div class="select">
+			<label>From
+				<select id="fromCurrencySelect"></select>
+			</label>
+			<label>to
+				<select id="toCurrencySelect"></select>
+			</label>
+		</div>
+		<button id="convert" class="btn">Convert</button>
+		<div id="result" class="resultDisp"></div>
+	</div>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="js/currency-converter.js"></script>
+</body>
+</html>

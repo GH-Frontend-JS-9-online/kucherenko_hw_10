@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	background-color: lightgrey;
+	font-size: 20px;
+}
+
+.enterAmount{
+	text-align: center;
+	width: cover;
+	height: 30px;
+	font-size: 16px;
+	border:2px solid grey;
+	margin: 15px 0;
+	border-radius: 5px;
+}
+
+.select{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px; 
+}
+.btn{
+	width: 120px;
+	height: 30px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: black;
+	border-radius: 5px;
+	background-color: lightgreen;
+	padding: 3px;
+}
+
+.resultDisp{
+	margin-top: 20px;
+	max-width: 500px;
+	font-size: 20px;
+	text-align: center;
+}
